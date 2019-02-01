@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NVIDIA</title>
+    <link rel="stylesheet" href="estilonvidia.css">
+    <link href="imagenes/favicon.ico" rel="shorcut icon">
+    <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Tarjetas Gráficas</h1>
+        <i class="fas fa-bars" onclick="mostrar('barranav','hambu','aspa')" id="hambu"></i>
+           <i class="fas fa-window-close" onclick="ocultar('barranav','hambu','aspa')" id="aspa"></i>    
+    </header>
+    <nav id="barranav">
+        <ul>
+            <li><a id="inicio" href="index.html">INICIO</a></li>
+            <li><a id="historia" href="historia.html">HISTORIA</a></li>
+            <li id="amd"><a id="amdlin" href="amd.html">AMD</a></li>
+            <li id="nvidia"><a id="nvidialin" href="nvidia.html">NVIDIA</a></li>
+            <li><a id="enlaces" href="enlaces.html">ENLACES</a></li>
+        </ul>
+    </nav>
+    <section id="contenido">
+        <p>Las Graficas estan clasificadas por gamas, esta 'Clasificación' se hace en base 
+            al precio y al rendimiento de las Graficas, siendo la gama baja, las mas baratas 
+            y las que menos rinden. Pero esto no las hace malas sino que simplemente tienen otros usos.
+        </p>
+    </section>    
+    <table>
+        <tr>
+            <th>Clasificacion por Gamas</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td>Gama Baja</td>
+            <td><a id="1050" href="Nvidia/1000/1050/1050.html">GTX 1050 2GB</a></aGTX></td>
+        </tr>
+        <tr>
+            <td>Gama Media</td>
+            <td><a id="1050TI" href="Nvidia/1000/1050Ti/1050TI.html">GTX 1050TI</a><br>
+                <a id="1060" href="Nvidia/1000/1060/1060.html">GTX 1060 3GB</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Gama Media Alta</td>
+            <td><a id="1060" href="Nvidia/1000/1060 6GB/10606gb.html">GTX 1060 6 GB</a><br>
+                <a id="1070" href="Nvidia/1000/1070/1070.html">GTX 1070</a><br>
+                <a id="1070TI" href="Nvidia/1000/1070TI/1070TI.html">GTX 1070TI</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Gama Alta</td>
+            <td>
+                <a id="2070" href="Nvidia/2000/2070/2070.html">RTX 2070<br>
+                <a id="1080" href="Nvidia/1000/1080/1080.html">GTX 1080</a><br>
+                <a id="1080TI" href="Nvidia/1000/1080Ti/1080TI.html">GTX 1080TI</a><br>
+                <a id="2080" href="Nvidia/2000/2080/2080.html">RTX 2080</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Gama Ultra-Alta</td>
+            <td><a id="2080TI" href="Nvidia/2000/2080Ti/2080TI.html">2080TI</a><br>
+                <a id="TITAN V" href="Nvidia/1000/TITAN V/TITAN.html">TITAN V</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Gama Profesional</td>
+            <td><a id="QUADRO" href="Nvidia/2000/QUADRO/QUADRO.html"> RTX 8000</a></td>
+        </tr>
+    </table>
+    <footer>
+        <p>Página creada por: Rafael Montes Expósito - IES.Campanillas</p>
+    </footer>
+</body>
+</html>

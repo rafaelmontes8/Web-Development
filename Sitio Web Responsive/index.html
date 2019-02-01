@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tarjetas Graficas</title>
+    <link href="imagenes/faviconprincipal.ico" rel="shorcut icon">
+    <link href="estilo.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Tarjetas Gráficas</h1>
+            <i class="fas fa-bars" onclick="mostrar('barranav','hambu','aspa')" id="hambu"></i>
+           <i class="fas fa-window-close" onclick="ocultar('barranav','hambu','aspa')" id="aspa"></i>
+        </header>
+        <nav id="barranav">
+            <ul>
+                <li><a id="inicio" href="index.html">INICIO</a></li>
+                <li><a id="historia" href="historia.html">HISTORIA</a></li>
+                <li id="amd"><a id="amdlin" href="amd.html">AMD</a></li>
+                <li id="nvidia"><a id="nvidialin" href="nvidia.html">NVIDIA</a></li>
+                <li><a id="enlaces" href="enlaces.html">ENLACES</a></li>
+            </ul>
+        </nav>
+        <img id="AMD" src="imagenes/AMD.jpg" alt="AMD">
+        <img id="NVIDIA" src="imagenes/Nvidia.png" alt="NVIDIA">
+        <section id="contenido">
+            <p>Las tarjetas graficas, son tarjetas de expansión de la placa base y son un componente esencial del ordenador 
+              en cuando a gráficos se refiere, son las que se encargan de mostrar una salida de 
+              video, a diferentes resoluciones y fps, su uso puede variar con el
+              usuario dado que estas pueden ser destinadas desde 'gaming' a minado
+              de criptomonedas o simplemente aprovechar las increíbles capacidades de computo de algunas
+              de estas. Y es por esto que suelen ser el componente más caro del ordenador.
+                <br> 
+                También se conocen por estos nombres: 
+                <ul>
+                    <li type="circle">Adaptador de pantalla</li>
+                    <li type="circle">Adaptador de video</li>
+                    <li type="circle">Placa de video</li>
+                    <li type="circle">Tarjeta aceleradora de gráficos</li>
+                    <li type="circle">Tarjeta de vídeo</li>
+                </ul>
+            </p>
+            <img id="Grafica" src="imagenes/grafica.jpg" alt="Ejemplo grafica">
+            <p>
+                Y las hay de varios tipos:
+                <br>-Dedicadas, donde la tarjeta se encuentran insertadas en los puertos PCI-express, y son las más eficientes dado que cuentan con su propio disipador y ocupan más espacio
+                en la placa base.
+                <br><br> -Integradas, donde la GPU se encuentran en la actualidad dentro de la CPU, siendo este tipos de graficas las menos potentes.
+                <br>
+            </p>
+            <img id="integrada" src="imagenes/AMD-Zen-APU.jpg" alt="grafica integrada">
+            <p>
+                <br> Pasando a los conectores las tarjetas tienen diferentes tipos conectores:
+                
+                <ul>
+                    <li type="square">VGA (prácticamente en desuso): significa Video Graphics Array, y fue el estándar de vídeo analógico en la década de los 90. Estaba diseñada para monitores CRT, y sufre bastante de ruido eléctrico y distorsión en la conversión de analógico a digital, por lo que los cables VGA suelen llevar filtro de línea en el propio cable. Su conector se llama D-sub y tiene 15 pines.
+                    </li>
+                    <li type="square"> DVI: Significa Digital Visual Interface, y sustituye a la anterior. Es totalmente digital, por lo que no hay que hacer conversión, eliminando gran parte del ruido eléctrico y la distorsión. Ofrece una mayor calidad y mayores resoluciones posibles.
+                    </li>
+                    <li type="square">HDMI: Significa High Definition Multimedia Interface, y actualmente es el que más se utiliza. Cuenta con cifrado sin compresión y es capaz de transmitir audio a la vez que vídeo, ofreciendo resoluciones todavía más altas.
+                    </li>
+                    <li type="square"> DisplayPort: Actualmente es el “rival” del HDMI. Se trata de una tecnología propietaria de VESA que también transmite audio y vídeo. Tiene como ventaja que está libre de patentes, por lo que es más fácil que su uso se extienda (actualmente prácticamente todas las gráficas llevan DisplayPort). Cuenta con una versión de tamaño reducido llamada Mini DisplayPort de iguales características que permite la inclusión de muchos más puertos en una misma tarjeta gráfica.
+                    </li>
+                </ul>
+                </p>
+        </section>
+        <footer>
+            <p>Página creada por: Rafael Montes Expósito - IES.Campanillas</p>
+        </footer>
+    </div>
+</body>
+</html>

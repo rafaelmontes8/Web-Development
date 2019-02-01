@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AMD</title>
+    <link rel="stylesheet" href="estiloamd.css">
+    <link href="imagenes/faviconamd.ico" rel="shorcut icon">
+    <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <script src="script.js"></script>
+</head>
+<body>
+        <header>
+            <h1>Tarjetas Gráficas</h1>
+            <i class="fas fa-bars" onclick="mostrar('barranav','hambu','aspa')" id="hambu"></i>
+            <i class="fas fa-window-close" onclick="ocultar('barranav','hambu','aspa')" id="aspa"></i>
+        </header>
+        <nav id="barranav">
+            <ul>
+                <li><a id="inicio" href="index.html">INICIO</a></li>
+                <li><a id="historia" href="historia.html">HISTORIA</a></li>
+                <li id="amd"><a id="amdlin" href="amd.html">AMD</a></li>
+                <li id="nvidia"><a id="nvidialin" href="nvidia.html">NVIDIA</a></li>
+                <li><a id="enlaces" href="enlaces.html">ENLACES</a></li>
+            </ul>
+        </nav>
+        <section id="contenido">
+            <p>Las Graficas estan clasificadas por gamas, esta 'Clasificación' se hace en base 
+                al precio y al rendimiento de las Graficas, siendo la gama baja las mas baratas 
+                y las que menos rinden. Pero esto no las hace malas sino qeu simplemente tienen otros usos.
+            </p>
+        </section>    
+        <table>
+            <tr>
+                <th>Clasificacion por Gamas</th>
+                <th></th>
+            </tr>
+            <tr>
+                <td>Gama Baja</td>
+                <td><a id="550" href="AMD/500/550/550.html">RX 550</a></aGTX></td>
+            </tr>
+            <tr>
+                <td>Gama Media</td>
+                <td><a id="560" href="AMD/500/560/560.html">RX 560</a><br>
+                    <a id="5704GB" href="AMD/500/570/570.html">RX 570 4GB</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Gama Alta</td>
+                <td>
+                    <a id="5708GB" href="AMD/500/570/570.html">RX 570 8GB</a><br>
+                    <a id="5804GB" href="AMD/500/580/5804GB.html">RX 580 4GB</a><br>
+                    <a id="5808GB" href="AMD/500/580/5804GB.html">RX 580 8GB</a><br>
+                    <a id="590" href="AMD/500/590/590.html">RX 590</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Gama Ultra</td>
+                <td>
+                    <a id="VEGA56" href="AMD/Vega/Vega56/VEGA56.html">Vega 56<br>
+                    <a id="VEGA64" href="AMD/Vega/Vega64/VEGA64.html">Vega 64</a><br>
+                </td>
+            </tr>
+        </table>
+        <footer>
+            <p>Página creada por: Rafael Montes Expósito - IES.Campanillas</p>
+        </footer>
+</body>        
+</html>
